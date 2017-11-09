@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint DEFd.podspec' to ensure this is a
+#  Be sure to run `pod spec lint CTMediator.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DEFd"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "DEFd."
 
   # This description is used to generate tags and improve search results.
@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-
-   dDAKFJDLAKFJDASKLFJ的骄傲了可点击分两块代付款
+  this is CTMediatorddddddddasD 
                    DESC
 
   s.homepage     = "https://github.com/redPace/DEFd"
@@ -40,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -55,9 +54,9 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "liqinghong" => "liqinghong@jianke.com" }
-  # Or just: s.author    = "liqinghong"
-  # s.authors            = { "liqinghong" => "liqinghong@jianke.com" }
-  # s.social_media_url   = "http://twitter.com/liqinghong"
+  # Or just: s.author    = "Casa Taloyum"
+  # s.authors            = { "Casa Taloyum" => "casatwy@msn.com" }
+  # s.social_media_url   = "http://twitter.com/Casa Taloyum"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -81,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/redPace/DEFd.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/redPace/DEFd.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "def/View/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "def/View/*.{h,m}","def/View/VModel/*.{h,m}","def/View/BaseUIView/*.{h,m}","def/View/Catogory/**/*.{h,m}"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -118,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+  # s.framework  = "UIKit"
   s.frameworks = "UIKit"
 
   # s.library   = "iconv"
