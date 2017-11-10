@@ -14,6 +14,7 @@
 		5D1CF97E1FB45EE4004C1D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1CF97C1FB45EE4004C1D0B /* LaunchScreen.storyboard */; };
 		5D1CF9811FB45EE4004C1D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CF9801FB45EE4004C1D0B /* main.m */; };
 		5D1CF98B1FB45EE4004C1D0B /* defUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CF98A1FB45EE4004C1D0B /* defUITests.m */; };
+		5D77ABD61FB539F8009D2C80 /* JKCBaseView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D77ABD51FB539F8009D2C80 /* JKCBaseView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +67,7 @@
 		5D1CF9BD1FB534F3004C1D0B /* JKCBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseNavigationController.h; sourceTree = "<group>"; };
 		5D1CF9BE1FB534F3004C1D0B /* JKCBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseNavigationController.m; sourceTree = "<group>"; };
 		5D1CF9BF1FB534F3004C1D0B /* CTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
-		5D1CF9D61FB53722004C1D0B /* DEFb.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DEFb.bundle; sourceTree = "<group>"; };
+		5D77ABD51FB539F8009D2C80 /* JKCBaseView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JKCBaseView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,7 +273,7 @@
 		5D1CF9C01FB53529004C1D0B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5D1CF9D61FB53722004C1D0B /* DEFb.bundle */,
+				5D77ABD51FB539F8009D2C80 /* JKCBaseView.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -359,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D77ABD61FB539F8009D2C80 /* JKCBaseView.bundle in Resources */,
 				5D1CF97E1FB45EE4004C1D0B /* LaunchScreen.storyboard in Resources */,
 				5D1CF97B1FB45EE4004C1D0B /* Assets.xcassets in Resources */,
 				5D1CF9791FB45EE4004C1D0B /* Main.storyboard in Resources */,
