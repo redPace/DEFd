@@ -14,7 +14,6 @@
 		5D1CF97E1FB45EE4004C1D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D1CF97C1FB45EE4004C1D0B /* LaunchScreen.storyboard */; };
 		5D1CF9811FB45EE4004C1D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CF9801FB45EE4004C1D0B /* main.m */; };
 		5D1CF98B1FB45EE4004C1D0B /* defUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CF98A1FB45EE4004C1D0B /* defUITests.m */; };
-		5D1CF9981FB45F14004C1D0B /* JKBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1CF9971FB45F14004C1D0B /* JKBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,33 @@
 		5D1CF9861FB45EE4004C1D0B /* defUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = defUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D1CF98A1FB45EE4004C1D0B /* defUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = defUITests.m; sourceTree = "<group>"; };
 		5D1CF98C1FB45EE4004C1D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D1CF9961FB45F14004C1D0B /* JKBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKBaseView.h; sourceTree = "<group>"; };
-		5D1CF9971FB45F14004C1D0B /* JKBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKBaseView.m; sourceTree = "<group>"; };
+		5D1CF99A1FB534F2004C1D0B /* JKCBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseTableViewCell.h; sourceTree = "<group>"; };
+		5D1CF99B1FB534F2004C1D0B /* JKCBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseTableViewCell.m; sourceTree = "<group>"; };
+		5D1CF99D1FB534F2004C1D0B /* JKCBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseView.h; sourceTree = "<group>"; };
+		5D1CF99E1FB534F2004C1D0B /* JKCBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseView.m; sourceTree = "<group>"; };
+		5D1CF99F1FB534F2004C1D0B /* CTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		5D1CF9A11FB534F2004C1D0B /* JKCBaseMVVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseMVVM.h; sourceTree = "<group>"; };
+		5D1CF9A21FB534F2004C1D0B /* JKCBaseMVVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseMVVM.m; sourceTree = "<group>"; };
+		5D1CF9A41FB534F2004C1D0B /* JKCBaseCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseCollectionView.h; sourceTree = "<group>"; };
+		5D1CF9A51FB534F2004C1D0B /* JKCBaseCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseCollectionView.m; sourceTree = "<group>"; };
+		5D1CF9A71FB534F2004C1D0B /* JKCBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseTableView.h; sourceTree = "<group>"; };
+		5D1CF9A81FB534F2004C1D0B /* JKCBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseTableView.m; sourceTree = "<group>"; };
+		5D1CF9AA1FB534F2004C1D0B /* JKCBaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		5D1CF9AB1FB534F2004C1D0B /* JKCBaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		5D1CF9AD1FB534F2004C1D0B /* JKCBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseViewController.h; sourceTree = "<group>"; };
+		5D1CF9AE1FB534F2004C1D0B /* JKCBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseViewController.m; sourceTree = "<group>"; };
+		5D1CF9B11FB534F3004C1D0B /* UICollectionViewCell+CUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+CUtils.h"; sourceTree = "<group>"; };
+		5D1CF9B21FB534F3004C1D0B /* UICollectionViewCell+CUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+CUtils.m"; sourceTree = "<group>"; };
+		5D1CF9B41FB534F3004C1D0B /* UIColor+CExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CExtention.h"; sourceTree = "<group>"; };
+		5D1CF9B51FB534F3004C1D0B /* UIColor+CExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CExtention.m"; sourceTree = "<group>"; };
+		5D1CF9B71FB534F3004C1D0B /* UITableViewCell+CUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+CUtils.h"; sourceTree = "<group>"; };
+		5D1CF9B81FB534F3004C1D0B /* UITableViewCell+CUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CUtils.m"; sourceTree = "<group>"; };
+		5D1CF9BA1FB534F3004C1D0B /* UIView+CUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CUtils.h"; sourceTree = "<group>"; };
+		5D1CF9BB1FB534F3004C1D0B /* UIView+CUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CUtils.m"; sourceTree = "<group>"; };
+		5D1CF9BD1FB534F3004C1D0B /* JKCBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKCBaseNavigationController.h; sourceTree = "<group>"; };
+		5D1CF9BE1FB534F3004C1D0B /* JKCBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKCBaseNavigationController.m; sourceTree = "<group>"; };
+		5D1CF9BF1FB534F3004C1D0B /* CTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		5D1CF9D61FB53722004C1D0B /* DEFb.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DEFb.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +134,147 @@
 		5D1CF9951FB45EFE004C1D0B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5D1CF9961FB45F14004C1D0B /* JKBaseView.h */,
-				5D1CF9971FB45F14004C1D0B /* JKBaseView.m */,
+				5D1CF9C01FB53529004C1D0B /* Resources */,
+				5D1CF9A31FB534F2004C1D0B /* BaseUICollectionView */,
+				5D1CF9A91FB534F2004C1D0B /* BaseUICollectionViewCell */,
+				5D1CF9BC1FB534F3004C1D0B /* BaseUINavigationController */,
+				5D1CF9A61FB534F2004C1D0B /* BaseUITableView */,
+				5D1CF9991FB534F2004C1D0B /* BaseUITableViewCell */,
+				5D1CF99C1FB534F2004C1D0B /* BaseUIView */,
+				5D1CF9AC1FB534F2004C1D0B /* BaseUIViewController */,
+				5D1CF9AF1FB534F3004C1D0B /* Catogory */,
+				5D1CF9BF1FB534F3004C1D0B /* CTMediator.h */,
+				5D1CF99F1FB534F2004C1D0B /* CTMediator.m */,
+				5D1CF9A01FB534F2004C1D0B /* VModel */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5D1CF9991FB534F2004C1D0B /* BaseUITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF99A1FB534F2004C1D0B /* JKCBaseTableViewCell.h */,
+				5D1CF99B1FB534F2004C1D0B /* JKCBaseTableViewCell.m */,
+			);
+			path = BaseUITableViewCell;
+			sourceTree = "<group>";
+		};
+		5D1CF99C1FB534F2004C1D0B /* BaseUIView */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF99D1FB534F2004C1D0B /* JKCBaseView.h */,
+				5D1CF99E1FB534F2004C1D0B /* JKCBaseView.m */,
+			);
+			path = BaseUIView;
+			sourceTree = "<group>";
+		};
+		5D1CF9A01FB534F2004C1D0B /* VModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9A11FB534F2004C1D0B /* JKCBaseMVVM.h */,
+				5D1CF9A21FB534F2004C1D0B /* JKCBaseMVVM.m */,
+			);
+			path = VModel;
+			sourceTree = "<group>";
+		};
+		5D1CF9A31FB534F2004C1D0B /* BaseUICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9A41FB534F2004C1D0B /* JKCBaseCollectionView.h */,
+				5D1CF9A51FB534F2004C1D0B /* JKCBaseCollectionView.m */,
+			);
+			path = BaseUICollectionView;
+			sourceTree = "<group>";
+		};
+		5D1CF9A61FB534F2004C1D0B /* BaseUITableView */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9A71FB534F2004C1D0B /* JKCBaseTableView.h */,
+				5D1CF9A81FB534F2004C1D0B /* JKCBaseTableView.m */,
+			);
+			path = BaseUITableView;
+			sourceTree = "<group>";
+		};
+		5D1CF9A91FB534F2004C1D0B /* BaseUICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9AA1FB534F2004C1D0B /* JKCBaseCollectionViewCell.h */,
+				5D1CF9AB1FB534F2004C1D0B /* JKCBaseCollectionViewCell.m */,
+			);
+			path = BaseUICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		5D1CF9AC1FB534F2004C1D0B /* BaseUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9AD1FB534F2004C1D0B /* JKCBaseViewController.h */,
+				5D1CF9AE1FB534F2004C1D0B /* JKCBaseViewController.m */,
+			);
+			path = BaseUIViewController;
+			sourceTree = "<group>";
+		};
+		5D1CF9AF1FB534F3004C1D0B /* Catogory */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9B01FB534F3004C1D0B /* UICollectionViewCell */,
+				5D1CF9B31FB534F3004C1D0B /* UIColor */,
+				5D1CF9B61FB534F3004C1D0B /* UITableViewCell */,
+				5D1CF9B91FB534F3004C1D0B /* UIView */,
+			);
+			path = Catogory;
+			sourceTree = "<group>";
+		};
+		5D1CF9B01FB534F3004C1D0B /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9B11FB534F3004C1D0B /* UICollectionViewCell+CUtils.h */,
+				5D1CF9B21FB534F3004C1D0B /* UICollectionViewCell+CUtils.m */,
+			);
+			path = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		5D1CF9B31FB534F3004C1D0B /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9B41FB534F3004C1D0B /* UIColor+CExtention.h */,
+				5D1CF9B51FB534F3004C1D0B /* UIColor+CExtention.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		5D1CF9B61FB534F3004C1D0B /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9B71FB534F3004C1D0B /* UITableViewCell+CUtils.h */,
+				5D1CF9B81FB534F3004C1D0B /* UITableViewCell+CUtils.m */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		5D1CF9B91FB534F3004C1D0B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9BA1FB534F3004C1D0B /* UIView+CUtils.h */,
+				5D1CF9BB1FB534F3004C1D0B /* UIView+CUtils.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		5D1CF9BC1FB534F3004C1D0B /* BaseUINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9BD1FB534F3004C1D0B /* JKCBaseNavigationController.h */,
+				5D1CF9BE1FB534F3004C1D0B /* JKCBaseNavigationController.m */,
+			);
+			path = BaseUINavigationController;
+			sourceTree = "<group>";
+		};
+		5D1CF9C01FB53529004C1D0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D1CF9D61FB53722004C1D0B /* DEFb.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +381,6 @@
 			files = (
 				5D1CF9761FB45EE4004C1D0B /* ViewController.m in Sources */,
 				5D1CF9811FB45EE4004C1D0B /* main.m in Sources */,
-				5D1CF9981FB45F14004C1D0B /* JKBaseView.m in Sources */,
 				5D1CF9731FB45EE4004C1D0B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
