@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DEFd"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "DEFd."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files  = "def/View/*.{h,m}","def/View/VModel/*.{h,m}","def/View/BaseUIView/*.{h,m}","def/View/Catogory/**/*.{h,m}","def/View/BaseUICollectionView/*.{h,m}","def/View/BaseUICollectionViewCell/*.{h,m}","def/View/BaseUINavigationController/*.{h,m}","def/View/BaseUITableView/*.{h,m}","def/View/BaseUITableViewCell/*.{h,m}","def/View/BaseUIViewController/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.resources = "def/View/Resources/DEFb.bundle"
+  s.resources = "def/View/Resources/JKCBaseView.bundle"
 
   # s.public_header_files = "Classes/**/*.h"
 
